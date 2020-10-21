@@ -12,11 +12,8 @@ public class Task16 {
         for(n=1;Math.abs((1/Math.pow(2,n))+(1/Math.pow(3,n)))>=e;n++) {
             a=(1/Math.pow(2,n))+(1/Math.pow(3,n));
             sum+=a;
-            System.out.println(sum);
-            if(a<e) {
-                break;
-            }
         }
+        System.out.println(sum);
 
     }
 }
